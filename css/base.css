@@ -20,6 +20,8 @@
  *
  * ------------------------------------------------------------------- 
  */
+
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -68,6 +70,10 @@ a {
 	background: transparent;
 }
 
+a {
+	background: visible;
+}
+
 a:active,
 a:hover {
 	outline: 0;
@@ -106,6 +112,11 @@ sup {
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
+}
+
+sup{
+	bottom: 0.5em;
+
 }
 
 sup {
@@ -346,6 +357,13 @@ ul {
 
 li {
 	display: block;
+}
+
+.new-btn{
+	color: #324222;
+	font-size:30%;
+	line-height:inherit;
+	
 }
 
 /**
